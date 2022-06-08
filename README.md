@@ -6,7 +6,7 @@ This simple script that make use of  pyfiglet, pycountry and request.
 # Running the demo.
 1. Git clone the script
 ```
-jun@b:~$ git clone 
+jun@b:~$ git clone https://github.com/nurbxfit/guessnation.git
 ```
 2. cd into the folder.
 ```
