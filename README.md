@@ -23,7 +23,7 @@ jun@b:~$ source .venv/bin/activate
 ``` 
 5. install the requirements
 ```
-(.venv) jun@b:~$ pip install -r requirement.txt
+(.venv) jun@b:~$ pip install -r requirements.txt
 ```
 6. run our script
 ```
