@@ -16,7 +16,7 @@ jun@b:~$ cd guessnation/
 ```bash
 jun@b:~$ python3 -m venv .venv
 ```
-this 
+
 4. Get into the environment
 ```
 jun@b:~$ source .venv/bin/activate
