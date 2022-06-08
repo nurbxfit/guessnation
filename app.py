@@ -1,8 +1,8 @@
 import requests
 import pyfiglet
-import pycountry
 import json 
 from progress.bar import Bar
+from pycountry import countries
 
 ascii_banner = pyfiglet.figlet_format("Guess My Nationality")
 url="https://api.nationalize.io/"
@@ -23,7 +23,7 @@ def display_bar(value):
 
 def display_probability(nation):
     # print(json.dumps(nation))
-    country = pycountry.countries.get(alpha_2=nation['country_id'])
+    country = countries.get(alpha_2=nation['country_id'])
     print(f"\nNationality: {country.name}")
     display_bar(nation['probability'])
 
