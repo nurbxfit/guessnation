@@ -19,7 +19,7 @@ jun@b:~$ python3 -m venv .venv
 this 
 4. Get into the environment
 ```
-jun@b:~$ source <ourvirtualenvname>/bin/activate
+jun@b:~$ source .venv/bin/activate
 ``` 
 5. install the requirements
 ```
