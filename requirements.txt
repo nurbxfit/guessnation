@@ -1,0 +1,4 @@
+progress==1.6
+pycountry==22.3.5
+pyfiglet==0.8.post1
+requests==2.22.0
